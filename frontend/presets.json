@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Default",
+    "description": "Базовый стиль оформления клипов",
+    "captions": true,
+    "emojis": true,
+    "palette": "default",
+    "font": "Arial",
+    "font_size": 48,
+    "caption_style": "white-outline",
+    "background": "#000000",
+    "aspect": "9:16"
+  },
+  {
+    "name": "TikTok Viral",
+    "description": "Виральный стиль TikTok: крупные субтитры, яркие цвета, эмодзи",
+    "captions": true,
+    "emojis": true,
+    "palette": "tiktok",
+    "font": "Impact",
+    "font_size": 56,
+    "caption_style": "colorful",
+    "background": "#111111",
+    "aspect": "9:16"
+  },
+  {
+    "name": "YouTube Shorts",
+    "description": "Стиль YouTube Shorts: минимализм, белый фон, строгий шрифт",
+    "captions": true,
+    "emojis": false,
+    "palette": "shorts",
+    "font": "Roboto",
+    "font_size": 44,
+    "caption_style": "minimal",
+    "background": "#ffffff",
+    "aspect": "9:16"
+  }
+]

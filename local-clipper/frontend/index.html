@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>local-clipper</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/static/styles.css" />
+  <link rel="icon" type="image/svg+xml" href="/static/favicon.ico" />
+</head>
+<body>
+  <div id="copyright-warning">
+    ⚠️ Инструмент работает локально. Ответственность за соблюдение авторских прав лежит на пользователе.
+  </div>
+  <div id="app">
+    <h1 style="text-align:center; margin-bottom:8px;">🎬 local-clipper</h1>
+    <div class="section">
+      <div class="section-title">Что это?</div>
+      <div class="section-desc">
+        <b>local-clipper</b> — офлайн-инструмент для нарезки, транскрипции, рефрейминга и генерации клипов из видео.<br>
+        <ul style="margin:8px 0 0 18px;">
+          <li>Загрузка видео с YouTube или с компьютера</li>
+          <li>Автоматическая нарезка на лучшие моменты</li>
+          <li>Транскрипция, субтитры, эмодзи, стилизация</li>
+          <li>Редактирование и рендер клипов</li>
+          <li>Всё работает локально, поддержка GPU</li>
+        </ul>
+      </div>
+    </div>
+    <div id="ui-sections"></div>
+  </div>
+  <!-- Важно: модульный скрипт -->
+  <script type="module" src="/static/app.js"></script>
+</body>
+</html>
